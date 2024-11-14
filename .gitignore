@@ -1,0 +1,33 @@
+# Ignore env files
+.env
+.env.local
+.env.*.local
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build or dist directories
+build/
+dist/
+
+# Ignore logs
+*.log
+
+# Ignore coverage reports (for testing tools like Jest)
+coverage/
+
+# Ignore any other generated files
+*.bak
+*.swp
+
+# Ignore package-lock.json and yarn.lock (if you use Yarn)
+package-lock.json
+yarn.lock
+
+# Ignore temporary files from IDEs or text editors
+.vscode/
+.idea/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
