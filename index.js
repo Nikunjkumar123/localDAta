@@ -12,5 +12,5 @@ app.get('/', (req, res) => {
 });
 connectDB(process.env.URL);
 app.listen(process.env.PORt,()=>{
-    console.log("connected to PORT");
+    console.log("connected to PORT",process.env.PORt);
 })
